@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css?family=Gamja+Flower|Nanum+Brush+Script|Patrick+Hand+SC|Schoolbell&display=swap');
+html,
+body {
+    height: 100%;
+}
+
+a {
+    color: #666;
+    text-decoration: none;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+blockquote {
+    font-family: 'Patrick Hand SC', cursive;
+    font-size: 1.6em;
+    background-position: center;
+    background-repeat: no-repeat !important;
+    background-size: 100% 100%;
+    text-align: center;
+    height: 0;
+    box-sizing: content-box;
+    line-height: 1;
+    background: url(../img/bubble.svg);
+    width: 50%;
+    height: 20%;
+    padding-top: 4%;
+    padding-bottom: 20%;
+}
+
+blockquote.flip {
+    background: url(../img/bubble-flip.svg);
+}
+
+img {
+    max-height: 300px;
+    display: block;
+    width: auto;
+}
+
+nav {
+    padding: 20px;
+}
+
+.overlay {
+    background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACcAAAAnCAIAAAADwcZiAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA2ZpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMy1jMDExIDY2LjE0NTY2MSwgMjAxMi8wMi8wNi0xNDo1NjoyNyAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDozMzUzRUFGOEM2ODVFMzExOUZFQjkyQjk0QzAwNDFENSIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDpGQUJGNTY3NEFEMkIxMUU0OEFDRENERUU4NTkzOTkyOCIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDpGQUJGNTY3M0FEMkIxMUU0OEFDRENERUU4NTkzOTkyOCIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ1M2IChXaW5kb3dzKSI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOjAzODAxMTc0MDcyMDY4MTE4MDgzODVCMjkyMTkxQ0VGIiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOjMzNTNFQUY4QzY4NUUzMTE5RkVCOTJCOTRDMDA0MUQ1Ii8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+LrBXCwAAAWFJREFUeNrsl72rgmAUh/0oFSvzAyOSTJFQHETLXVwaXIJqM9r671ts08V7Zs8h7iLcLu9vfDweX9GH877c6XRarVYcyvP5XCwWmD8eD0mSBlAQhPv9Pp1OMb9cLjzPD7tMJhOCchy0xhyIoihkvaZpZL1hGGT938uXLJMFxXGcNE0x9zwvCAKS27aNueu68/kc891uJ8vyUJzX69U0Da4G3vc95u/3u+u63/93s9kMPG7bln1gln+VJEniOMb8cDj4vo85yG1ZFuZZlpG+AocxRUw6PC8hoDael5Dlckny7XZL8iiKyP4sLF+9RxHyPN/v9/hCURSbzQbzsix1XSf9xl7CKx2PR8IckAyUxV1UVSU5+CqKIukrycMwJPuwsIzt66geC+fzGba4+DG32800TXxDXdew2cRLvF6v5EmyqirCnA8nSbiH9JisB4/J+vV6zY5oLGNGJH+8sUf1jwADAFYFL8oYi1hBAAAAAElFTkSuQmCC);
+    opacity: 0.3;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.wrapper {
+    position: relative;
+    border: 20px solid black;
+    margin-left: -10px;
+    margin-right: -10px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+;
